@@ -1,19 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const emptyDiv = document.getElementById("country-list")
 const input = document.getElementById("input")
 const btn = document.getElementById("btn")
@@ -36,6 +20,7 @@ function renderCard(array = []) {
 			<span id="spinner" class="visually-hidden">Loading...</span>
 		</div>`
   }
+
   for (let i = 0; i < array.length; i++) {
     console.log(array[i]);
     emptyDiv.innerHTML += `
